@@ -1,1 +1,5 @@
 /target/
+/dl4j.decision/
+/dl4j.eval/
+/p3api/
+/shared/
