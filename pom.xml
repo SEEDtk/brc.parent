@@ -6,6 +6,10 @@
   <packaging>pom</packaging>
   <name>Parent Project for BV-BRC modules</name>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <modules>
       <module>dl4j.eval</module>
       <module>p3api</module>
