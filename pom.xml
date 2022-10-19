@@ -8,6 +8,10 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <nd4j.version>1.0.0-M1.1</nd4j.version>
+    <logback.version>1.2.10</logback.version>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <modules>
@@ -23,12 +27,14 @@
       <pluginManagement>
           <plugins>
             <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-antrun-plugin</artifactId>
               <version>3.1.0</version>
             </plugin>
             <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-shade-plugin</artifactId>
-              <version>3.3.0</version>
+              <version>3.4.0</version>
             </plugin>
           </plugins>
       </pluginManagement>
