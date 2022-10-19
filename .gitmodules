@@ -1,0 +1,18 @@
+[submodule "shared"]
+	path = shared
+	url = https://github.com/SEEDtk/shared
+[submodule "dl4j.eval"]
+	path = dl4j.eval
+	url = https://github.com/SEEDtk/dl4j.eval
+[submodule "kmers.reps"]
+	path = kmers.reps
+	url = https://github.com/SEEDtk/kmers.reps
+[submodule "sequence"]
+	path = sequence
+	url = https://github.com/SEEDtk/sequence
+[submodule "p3api"]
+	path = p3api
+	url = https://github.com/SEEDtk/p3api
+[submodule "dl4j.decision"]
+	path = dl4j.decision
+	url = https://github.com/SEEDtk/dl4j.decision
