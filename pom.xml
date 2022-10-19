@@ -12,6 +12,8 @@
 
   <modules>
       <module>dl4j.eval</module>
+      <module>kmers.reps</module>
+      <module>sequence</module>
       <module>p3api</module>
       <module>shared</module>
       <module>dl4j.decision</module>
