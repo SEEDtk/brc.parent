@@ -4,6 +4,9 @@ include $(TOP_DIR)/tools/Makefile.common
 DEPLOY_RUNTIME ?= /kb/runtime
 TARGET ?= /kb/deployment
 
+WRAP_JAVA_TOOL = wrap_java
+WRAP_JAVA_SCRIPT = bash $(TOOLS_DIR)/$(WRAP_JAVA_TOOL).sh
+
 # identify the output jar names here
 JARS = kmers.reps dl4j.eval
 
@@ -14,12 +17,6 @@ BIN_JAVA = $(foreach mod,$(JARS),$(BIN_DIR)/$(mod))
 all: bin 
 
 bin: $(BIN_JAVA)
-
-source:
-	for m in $(SRC_JAVA)
-	do
-		echo "Source $$m"
-	done
 
 test: test-client
 	mvn test
