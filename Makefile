@@ -16,8 +16,9 @@ all: bin
 bin: $(BIN_JAVA)
 
 source:
-	for m in $(SRC_JAVA); do \
-		echo "Source $$m" ;
+	for m in $(SRC_JAVA)
+	do
+		echo "Source $$m"
 	done
 
 test: test-client
