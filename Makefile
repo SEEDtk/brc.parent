@@ -19,8 +19,13 @@ all: bin
 
 bin: $(BIN_JAVA) $(JAR_JAVA)
 
-test: test-client
+test:
 	mvn test
+
+show:
+	echo jars $(JAR_JAVA)
+	echo bins $(BIN_JAVA)
+	echo source $(SRC_JAVA) 
 
 clean:
 	mvn clean
