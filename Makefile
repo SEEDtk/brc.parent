@@ -25,7 +25,7 @@ clean:
 	mvn clean
 
 $(BIN_DIR)/%: $(SEED_JARS)/%.jar
-	$(WRAP_JAVA_SCRIPT) % $@
+	$(WRAP_JAVA_SCRIPT) $* $@
 
 $(SEED_JARS)/%.jar: SRC_JAVA
 	mvn package -Dmaven.test.skip=true
