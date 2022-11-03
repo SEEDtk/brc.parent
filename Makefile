@@ -13,10 +13,11 @@ JARS = kmers.reps dl4j.eval
 SRC_JAVA = $(shell $(TOOLS_DIR)/java-source $(CURDIR))
 BIN_DIR = $(KB_TOP)/bin
 BIN_JAVA = $(foreach mod,$(JARS),$(BIN_DIR)/$(mod))
+JAR_JAVA = $(foreach mod,$(JARS),$(SEED_JARS)/$(mod).jar)
 
 all: bin 
 
-bin: $(BIN_JAVA)
+bin: $(BIN_JAVA) $(JAR_JAVA)
 
 test: test-client
 	mvn test
