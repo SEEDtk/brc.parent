@@ -16,7 +16,7 @@ JAR_JAVA = $(foreach mod,$(JARS),$(SEED_JARS)/$(mod).jar)
 
 all: bin 
 
-bin: $(BIN_JAVA) $(JAR_JAVA) build
+bin: $(BIN_JAVA) build
 
 test:
 	mvn test
@@ -24,7 +24,7 @@ test:
 show:
 	echo jars $(JAR_JAVA)
 	echo bins $(BIN_JAVA)
-	echo source $(SRC_JAVA) 
+	echo jarDir $(SEED_JARS) 
 
 clean:
 	mvn clean
