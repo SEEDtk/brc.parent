@@ -16,3 +16,6 @@
 [submodule "dl4j.decision"]
 	path = dl4j.decision
 	url = https://github.com/SEEDtk/dl4j.decision
+[submodule "bins.generate"]
+	path = bins.generate
+	url = https://github.com/SEEDtk/bins.generate.git
