@@ -19,3 +19,6 @@
 [submodule "bins.generate"]
 	path = bins.generate
 	url = https://github.com/SEEDtk/bins.generate.git
+[submodule "io.template"]
+	path = io.template
+	url = https://github.com/SEEDtk/io.template.git
