@@ -24,6 +24,7 @@
       <module>dl4j.decision</module>
       <module>bins.generate</module>
       <module>io.template</module>
+      <module>basic</module>
   </modules>
 
   <build>
