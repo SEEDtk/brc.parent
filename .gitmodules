@@ -22,3 +22,6 @@
 [submodule "io.template"]
 	path = io.template
 	url = https://github.com/SEEDtk/io.template.git
+[submodule "basic"]
+	path = basic
+	url = https://github.com/SEEDtk/basic
