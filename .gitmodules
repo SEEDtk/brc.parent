@@ -25,3 +25,15 @@
 [submodule "basic"]
 	path = basic
 	url = https://github.com/SEEDtk/basic
+[submodule "distance"]
+	path = distance
+	url = https://github.com/SEEDtk/distance.git
+[submodule "excel.utils"]
+	path = excel.utils
+	url = https://github.com/SEEDtk/excel.utils.git
+[submodule "java.erdb"]
+	path = java.erdb
+	url = https://github.com/SEEDtk/java.erdb.git
+[submodule "kmers.hammer"]
+	path = kmers.hammer
+	url = https://github.com/SEEDtk/kmers.hammer.git
