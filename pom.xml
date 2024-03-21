@@ -28,7 +28,7 @@
       <module>basic</module>
       <module>java.erdb</module>
       <module>excel.utils</module>
-      <module>distance</module>
+      <module>genome.distance</module>
   </modules>
 
   <build>
