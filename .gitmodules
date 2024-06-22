@@ -40,3 +40,6 @@
 [submodule "genome.distance"]
 	path = genome.distance
 	url = https://github.com/SEEDtk/genome.distance
+[submodule "genome.changes"]
+	path = genome.changes
+	url = ./genome.changes
