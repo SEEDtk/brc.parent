@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.theseed</groupId>
@@ -6,7 +6,6 @@
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>Parent Project for BV-BRC modules</name>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <nd4j.version>1.0.0-M2.1</nd4j.version>
@@ -14,37 +13,39 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
-
   <modules>
-      <module>dl4j.eval</module>
-      <module>kmers.reps</module>
-      <module>kmers.hammer</module>
-      <module>sequence</module>
-      <module>p3api</module>
-      <module>shared</module>
-      <module>dl4j.decision</module>
-      <module>bins.generate</module>
-      <module>io.template</module>
-      <module>basic</module>
-      <module>java.erdb</module>
-      <module>excel.utils</module>
-      <module>distance</module>
+    <module>dl4j.eval</module>
+    <module>kmers.reps</module>
+    <module>kmers.hammer</module>
+    <module>sequence</module>
+    <module>p3api</module>
+    <module>shared</module>
+    <module>dl4j.decision</module>
+    <module>bins.generate</module>
+    <module>io.template</module>
+    <module>basic</module>
+    <module>java.erdb</module>
+    <module>excel.utils</module>
+    <module>distance</module>
+    <module>genome.changes</module>
   </modules>
 
   <build>
-      <pluginManagement>
-          <plugins>
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-antrun-plugin</artifactId>
-              <version>3.1.0</version>
-            </plugin>
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-shade-plugin</artifactId>
-              <version>3.4.0</version>
-            </plugin>
-          </plugins>
-      </pluginManagement>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-shade-plugin</artifactId>
+          <version>3.4.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
   </build>
+
 </project>
