@@ -1,45 +1,59 @@
 [submodule "shared"]
 	path = shared
 	url = https://github.com/SEEDtk/shared
+	branch = master
 [submodule "dl4j.eval"]
 	path = dl4j.eval
 	url = https://github.com/SEEDtk/dl4j.eval
+	branch = master
 [submodule "kmers.reps"]
 	path = kmers.reps
 	url = https://github.com/SEEDtk/kmers.reps
+	branch = master
 [submodule "sequence"]
 	path = sequence
 	url = https://github.com/SEEDtk/sequence
+	branch = master
 [submodule "p3api"]
 	path = p3api
 	url = https://github.com/SEEDtk/p3api
+	branch = master
 [submodule "dl4j.decision"]
 	path = dl4j.decision
 	url = https://github.com/SEEDtk/dl4j.decision
+	branch = master
 [submodule "bins.generate"]
 	path = bins.generate
 	url = https://github.com/SEEDtk/bins.generate.git
+	branch = master
 [submodule "io.template"]
 	path = io.template
 	url = https://github.com/SEEDtk/io.template.git
+	branch = master
 [submodule "basic"]
 	path = basic
 	url = https://github.com/SEEDtk/basic
+	branch = master
 [submodule "distance"]
 	path = distance
 	url = https://github.com/SEEDtk/distance.git
+	branch = master
 [submodule "excel.utils"]
 	path = excel.utils
 	url = https://github.com/SEEDtk/excel.utils.git
+	branch = master
 [submodule "java.erdb"]
 	path = java.erdb
 	url = https://github.com/SEEDtk/java.erdb.git
+	branch = master
 [submodule "kmers.hammer"]
 	path = kmers.hammer
 	url = https://github.com/SEEDtk/kmers.hammer.git
+	branch = master
 [submodule "genome.distance"]
 	path = genome.distance
 	url = https://github.com/SEEDtk/genome.distance
 [submodule "genome.changes"]
 	path = genome.changes
 	url = https://github.com/SEEDtk/genome.changes.git
+	branch = master
