@@ -57,3 +57,6 @@
 	path = genome.changes
 	url = https://github.com/SEEDtk/genome.changes.git
 	branch = master
+[submodule "genome.download"]
+	path = genome.download
+	url = https://github.com/SEEDtk/genome.download

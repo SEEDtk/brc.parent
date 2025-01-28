@@ -28,6 +28,7 @@
     <module>excel.utils</module>
     <module>distance</module>
     <module>genome.changes</module>
+    <module>genome.download</module>
   </modules>
 
   <build>
