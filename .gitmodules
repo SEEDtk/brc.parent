@@ -60,3 +60,6 @@
 [submodule "genome.download"]
 	path = genome.download
 	url = https://github.com/SEEDtk/genome.download
+[submodule "java.config"]
+	path = java.config
+	url = https://github.com/SEEDtk/java.config
