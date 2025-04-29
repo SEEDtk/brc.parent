@@ -8,7 +8,7 @@ WRAP_JAVA_TOOL = wrap_java
 WRAP_JAVA_SCRIPT = bash $(TOOLS_DIR)/$(WRAP_JAVA_TOOL).sh
 
 # identify the output jar names here
-JARS = kmers.reps dl4j.eval
+JARS = kmers.reps dl4j.eval bins.generate kmers.hammer kmers.reps
 
 BIN_DIR = $(KB_TOP)/bin
 BIN_JAVA = $(foreach mod,$(JARS),$(BIN_DIR)/$(mod))
