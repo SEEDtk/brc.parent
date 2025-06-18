@@ -1,0 +1,97 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "perl",
+            "request": "launch",
+            "name": "Reconfiguration",
+            "program": "${userHome}/Documents/SEEDtk/git/seedtk/Config.pl",
+            "stopOnEntry": false,
+            "args": ["--eclipse", "seedtk"],
+            "cwd": "${userHome}/Documents/SEEDtk/Data"
+        },
+        {
+            "type": "java",
+            "name": "Bin Test",
+            "request": "launch",
+            "mainClass": "org.theseed.bins.generate.App",
+            "projectName": "bins.generate",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Eval Test",
+            "request": "launch",
+            "mainClass": "org.theseed.dl4j.eval.App",
+            "projectName": "dl4j.eval",
+            "args": "eval --format HTML -O TestEval.Q --clear -u Eval.13 TestEval",
+            "vmArgs": "-Xmx16G",
+            "cwd": "${userHome}/Documents/SEEDtk/Data"
+        },
+        {
+            "type": "java",
+            "name": "Changes Test",
+            "request": "launch",
+            "mainClass": "org.theseed.genome.changes.App",
+            "projectName": "genome.changes",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Download Test",
+            "request": "launch",
+            "mainClass": "org.theseed.genome.download.App",
+            "projectName": "genome.download",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Template Test",
+            "request": "launch",
+            "mainClass": "org.theseed.io.template.App",
+            "projectName": "io.template",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Config Test",
+            "request": "launch",
+            "mainClass": "org.theseed.config.App",
+            "projectName": "java.config",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Hammer Test",
+            "request": "launch",
+            "mainClass": "org.theseed.kmers.hammer.App",
+            "projectName": "kmers.hammer",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Reps Test",
+            "request": "launch",
+            "mainClass": "org.theseed.proteins.kmers.reps.App",
+            "projectName": "kmers.reps",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${command:pickArgs}"
+        }
+    ]
+}
