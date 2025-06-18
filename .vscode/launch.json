@@ -92,6 +92,15 @@
             "projectName": "kmers.reps",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
             "args": "${command:pickArgs}"
+        },
+        {
+            "type": "java",
+            "name": "RepDB Build Test",
+            "request": "launch",
+            "mainClass": "org.theseed.proteins.kmers.reps.App",
+            "projectName": "kmers.reps",
+            "cwd": "${userHome}/Documents/SEEDtk/Data/P3Eval.New",
+            "args": "buildFromGtos GTO200 phes.definition.tbl rep100fine.ser --verify allprots.fa"
         }
     ]
 }
