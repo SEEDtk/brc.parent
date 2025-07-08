@@ -27,7 +27,7 @@
             "mainClass": "org.theseed.bins.generate.App",
             "projectName": "bins.generate",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -46,7 +46,7 @@
             "mainClass": "org.theseed.genome.changes.App",
             "projectName": "genome.changes",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -55,7 +55,7 @@
             "mainClass": "org.theseed.genome.download.App",
             "projectName": "genome.download",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -64,7 +64,7 @@
             "mainClass": "org.theseed.io.template.App",
             "projectName": "io.template",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -73,7 +73,7 @@
             "mainClass": "org.theseed.config.App",
             "projectName": "java.config",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -82,7 +82,7 @@
             "mainClass": "org.theseed.kmers.hammer.App",
             "projectName": "kmers.hammer",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -91,7 +91,7 @@
             "mainClass": "org.theseed.proteins.kmers.reps.App",
             "projectName": "kmers.reps",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${command:pickArgs}"
+            "args": "${input:pickArgs}"
         },
         {
             "type": "java",
@@ -101,6 +101,14 @@
             "projectName": "kmers.reps",
             "cwd": "${userHome}/Documents/SEEDtk/Data/P3Eval.New",
             "args": "buildFromGtos GTO200 phes.definition.tbl rep100fine.ser --verify allprots.fa"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "pickArgs",
+            "type": "promptString",
+            "description": "Enter command-line arguments for the selected application (e.g., --help, --verbose, etc.)",
+            "default": "--help"
         }
     ]
 }
