@@ -50,9 +50,6 @@
 	path = kmers.hammer
 	url = https://github.com/SEEDtk/kmers.hammer.git
 	branch = master
-[submodule "genome.distance"]
-	path = genome.distance
-	url = https://github.com/SEEDtk/genome.distance
 [submodule "genome.changes"]
 	path = genome.changes
 	url = https://github.com/SEEDtk/genome.changes.git
