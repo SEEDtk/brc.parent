@@ -4,12 +4,22 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": "${input:pickArgs}",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "stopOnEntry": true
         },
         {
             "type": "perl",
@@ -101,6 +111,15 @@
             "projectName": "kmers.reps",
             "cwd": "${userHome}/Documents/SEEDtk/Data/P3Eval.New",
             "args": "buildFromGtos GTO200 phes.definition.tbl rep100fine.ser --verify allprots.fa"
+        },
+        {
+            "type": "java",
+            "name": "Survey Test",
+            "request": "launch",
+            "mainClass": "org.theseed.genome.survey.App",
+            "projectName": "genome.survey",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${input:pickArgs}"
         }
     ],
     "inputs": [
