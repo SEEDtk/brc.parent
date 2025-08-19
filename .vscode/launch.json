@@ -41,6 +41,15 @@
         },
         {
             "type": "java",
+            "name": "Query Test",
+            "request": "launch",
+            "mainClass": "org.theseed.p3.query.App",
+            "projectName": "p3.query",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${input:pickArgs}"
+        },
+        {
+            "type": "java",
             "name": "Eval Test",
             "request": "launch",
             "mainClass": "org.theseed.dl4j.eval.App",
