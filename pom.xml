@@ -29,6 +29,7 @@
     <module>genome.changes</module>
     <module>genome.download</module>
     <module>java.config</module>
+    <module>p3.query</module>
   </modules>
   <build>
     <pluginManagement>
