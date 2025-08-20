@@ -60,3 +60,6 @@
 [submodule "java.config"]
 	path = java.config
 	url = https://github.com/SEEDtk/java.config
+[submodule "p3.query"]
+	path = p3.query
+	url = ./p3.query
