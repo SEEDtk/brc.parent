@@ -128,7 +128,8 @@
             "mainClass": "org.theseed.genome.survey.App",
             "projectName": "genome.survey",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
-            "args": "${input:pickArgs}"
+            "args": "${input:pickArgs}",
+            "vmArgs": "-Dlogback.configurationFile=C:/Users/drake/Documents/SEEDtk/git/kernel/jars/quiet.logback.xml"
         }
     ],
     "inputs": [
