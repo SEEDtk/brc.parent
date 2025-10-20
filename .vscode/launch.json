@@ -22,6 +22,15 @@
             "stopOnEntry": true
         },
         {
+            "name": "Python Debugger: Test MCP Tool",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${userHome}/Documents/SEEDtk/git/bvbrc-data-mcp-server/test_tools.py",
+            "console": "integratedTerminal",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "stopOnEntry": true
+        },        
+        {
             "type": "perl",
             "request": "launch",
             "name": "Reconfiguration",
