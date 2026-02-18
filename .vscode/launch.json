@@ -139,6 +139,16 @@
             "cwd": "${userHome}/Documents/SEEDtk/Data",
             "args": "${input:pickArgs}",
             "vmArgs": "-Dlogback.configurationFile=C:/Users/drake/Documents/SEEDtk/git/kernel/jars/quiet.logback.xml"
+        },
+        {
+            "type": "java",
+            "name": "Utility Test",
+            "request": "launch",
+            "mainClass": "org.theseed.p3api.common.App",
+            "projectName": "p3api.common",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${input:pickArgs}",
+            "vmArgs": "-Dlogback.configurationFile=C:/Users/drake/Documents/SEEDtk/git/kernel/jars/quiet.logback.xml"
         }
     ],
     "inputs": [
