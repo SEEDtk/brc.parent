@@ -114,6 +114,15 @@
         },
         {
             "type": "java",
+            "name": "Common Test",
+            "request": "launch",
+            "mainClass": "org.theseed.p3api.common.App",
+            "projectName": "p3api.common",
+            "cwd": "${userHome}/Documents/SEEDtk/Data",
+            "args": "${input:pickArgs}"
+        },
+        {
+            "type": "java",
             "name": "Reps Test",
             "request": "launch",
             "mainClass": "org.theseed.proteins.kmers.reps.App",
