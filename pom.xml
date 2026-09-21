@@ -12,19 +12,19 @@
     <maven.compiler.release>25</maven.compiler.release>
   </properties>
   <modules>
+    <module>basic</module>
+    <module>shared</module>
+    <module>p3api</module>
+    <module>sequence</module>
+    <module>java.erdb</module>
+    <module>distance</module>
+    <module>dl4j.decision</module>
     <module>dl4j.eval</module>
     <module>kmers.reps</module>
     <module>kmers.hammer</module>
-    <module>sequence</module>
-    <module>p3api</module>
-    <module>shared</module>
-    <module>dl4j.decision</module>
     <module>bins.generate</module>
     <module>io.template</module>
-    <module>basic</module>
-    <module>java.erdb</module>
     <module>excel.utils</module>
-    <module>distance</module>
     <module>genome.changes</module>
     <module>genome.download</module>
     <module>java.config</module>
