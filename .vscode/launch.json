@@ -151,10 +151,10 @@
         },
         {
             "type": "java",
-            "name": "Utility Test",
+            "name": "CLI Utility Test",
             "request": "launch",
-            "mainClass": "org.theseed.p3api.common.App",
-            "projectName": "p3api.common",
+            "mainClass": "org.theseed.cli.utils.App",
+            "projectName": "cli.utils",
             "cwd": "${userHome}/Documents/SEEDtk/Data",
             "args": "${input:pickArgs}",
             "vmArgs": "-Dlogback.configurationFile=C:/Users/drake/Documents/SEEDtk/git/kernel/jars/quiet.logback.xml"
